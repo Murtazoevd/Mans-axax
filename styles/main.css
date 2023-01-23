@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box{
+   width: 600px;
+   height: 600px;
+   position: relative;
+}
+
+.container .box .head{
+    width: 200px;
+    height: 200px;
+    background-color: #FABA84;
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+    z-index: 2;
+}
+
+.container .box .head .lips{
+    position: absolute;
+    bottom: 40px;
+    left: 70px;
+    width: 60px;
+    height: 20px;
+    background-color: #fc6030;
+    border-radius: 30px;
+}
+
+.container .box .head .lefteye{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    width: 50px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+.container .box .head .lefteye .ineye{
+    position: absolute;
+    bottom: 2px;
+    left: 17px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+.container .box .head .righteye{
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    width: 50px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+.container .box .head .righteye .ineye{
+    position: absolute;
+    bottom: 2px;
+    right: 17px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+.container .box .body{
+   width: 150px;
+   height: 230px;
+   background-color: #8d5e17;
+   position: absolute;
+   border-radius: 30px;
+   /* border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px; */
+   left: 225px;
+   top: 170px;
+   z-index: 1;
+}
+
+.container .box .left{
+    position: absolute;
+    width: 40px;
+    height: 170px;
+    background-color: #FABA84;
+    top: 170px;
+    left: 180px;
+    border-radius: 20px;
+    transform: rotate(30deg);
+}
+
+.container .box .left .arm{
+    position: absolute;
+    width: 40px;
+    height: 150px;
+    background-color: #8d5e17;
+    border-radius: 20px;
+}
+
+.container .box .right{
+    position: absolute;
+    width: 40px;
+    height: 170px;
+    background-color: #FABA84;
+    top: 170px;
+    right: 180px;
+    border-radius: 20px;
+    transform: rotate(-30deg);
+}
+
+.container .box .right .arm{
+    position: absolute;
+    width: 40px;
+    height: 150px;
+    background-color: #8d5e17;
+    border-radius: 20px;
+}
+
+.container .box .leftleg{
+    position: absolute;
+    width: 40px;
+    height: 170px;
+    background-color: #000000;
+    bottom: 70px;
+    left: 230px;
+    border-radius: 20px;
+}
+
+.container .box .rightleg{
+    position: absolute;
+    width: 40px;
+    height: 170px;
+    background-color: #000000;
+    bottom: 70px;
+    right: 230px;
+    border-radius: 20px;
+}
