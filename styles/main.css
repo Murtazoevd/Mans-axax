@@ -42,17 +42,18 @@
     border-radius: 30px;
 }
 
-.container .box .head .lefteye{
-    position: absolute;
+.container .box .head .eye{
+    position: relative;
     top: 70px;
     left: 30px;
     width: 50px;
     height: 20px;
     background-color: #fff;
     border-radius: 40px;
+    /* display: flex; */
 }
 
-.container .box .head .lefteye .ineye{
+.container .box .head .eye .ineye{
     position: absolute;
     bottom: 2px;
     left: 17px;
@@ -62,7 +63,7 @@
     background-color: #000000;
 }
 
-.container .box .head .righteye{
+/* .container .box .head .eye{
     position: absolute;
     top: 70px;
     right: 30px;
@@ -72,7 +73,7 @@
     border-radius: 40px;
 }
 
-.container .box .head .righteye .ineye{
+.container .box .head .eye .ineye{
     position: absolute;
     bottom: 2px;
     right: 17px;
@@ -80,7 +81,7 @@
     height: 15px;
     border-radius: 50%;
     background-color: #000000;
-}
+} */
 
 .container .box .body{
    width: 150px;
